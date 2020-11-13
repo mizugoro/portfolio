@@ -1,1 +1,30 @@
 @charset "utf-8";
+body{
+    font-family: "ヒラギノ角ゴ","Hiragino Kaku Gothic Pro",Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    letter-spacing: .8px;
+    word-break: break-all;
+    color: #333333;
+}
+#gnav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav ul{
+    list-style: none;
+}
+ul,li{
+    list-style: none;
+}
+#gnav li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 2px 15px;
+    letter-spacing: .05rem;
+}
+li{
+    display: list-item;
+    text-align: center;
+}
