@@ -28,3 +28,9 @@ li{
     display: list-item;
     text-align: center;
 }
+h1{
+    text-align: center;
+}
+.work-content{
+    display: flex;
+}
