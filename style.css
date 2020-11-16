@@ -1,4 +1,5 @@
 @charset "utf-8";
+/*全体設定*/
 body{
     font-family: "ヒラギノ角ゴ","Hiragino Kaku Gothic Pro",Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
@@ -9,6 +10,10 @@ body{
     margin: 10px;
     padding: 10px;
 }
+h1{
+    text-align: center;
+}
+/*ナビゲーション*/
 #gnav ul{
     display: flex;
     flex-wrap: wrap;
@@ -30,32 +35,35 @@ li{
     display: list-item;
     text-align: center;
 }
+/*ヘッダー*/
 .header{
     width: 100%;
     height: 600px;
     background-color: aquamarine;
 }
+/*作品集*/
 
-
-h1{
+.works-letter{
+    /*font-size: 2.75rem;*/
     text-align: center;
+    margin-top: 100px;
 }
 
-.contaier{
+.works-grid{
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
 }
-.work-content{
+.works-content{
     background-color: aquamarine;
     padding: 15px;
     text-align: center;
 }
-.work-content img{
-    max-width: 60px;
+.works-content img{
+    max-width: 150px;
     height: auto;
 }
-.work-content h4{
+.works-content p{
     text-align: left;
     color: #333333;
 }
