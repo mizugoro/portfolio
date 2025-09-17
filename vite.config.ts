@@ -5,4 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/portfolio/',
+  build: {
+    // 出力先を 'docs' に変更
+    // デフォルトは 'dist'
+    outDir: 'docs',
+  },
 })
